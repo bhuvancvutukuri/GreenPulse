@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Pandas](https://img.shields.io/badge/Pandas-EDA-green)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-purple)
+![Dash](https://img.shields.io/badge/Dash-Dashboard-orange)
+![Geospatial](https://img.shields.io/badge/Geospatial-Analysis-teal)
+
 # GreenPulse: Urban Tree Health & Distribution Analysis
 
 ## Overview
