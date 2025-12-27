@@ -20,8 +20,14 @@ def load_data():
 
 df = load_data()
 
+# ✅ CREATE APP FIRST
+app = Dash(__name__)
+
+# ✅ THEN EXPOSE SERVER
 server = app.server
-app.title = "GreenPulse Dashboard"
+
+#server = app.server
+#app.title = "GreenPulse Dashboard"
 
 boroughs = sorted(df["borough"].dropna().unique()) if "borough" in df.columns else []
 healths = sorted(df["health"].dropna().unique()) if "health" in df.columns else []
