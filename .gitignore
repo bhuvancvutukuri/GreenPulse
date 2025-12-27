@@ -29,4 +29,4 @@ Thumbs.db
 .mypy_cache/
 
 # Optional: large raw data (uncomment if needed)
-# data/raw/
+data/raw/
